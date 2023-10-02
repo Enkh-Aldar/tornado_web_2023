@@ -1,0 +1,9 @@
+ul {
+    list-style-type: circle;
+}
+li:hover {
+    text-decoration: blink;
+    background-color: aqua;
+    font-size:large
+
+}

@@ -1,0 +1,3 @@
+input:focus { background-color: green;
+color: black; border: 7px solid #555;
+}

@@ -1,0 +1,20 @@
+body {
+    background-color: darkgreen; width: 500px; height: 400px;
+}
+.circle {
+    height: 150px;
+    width: 150px;
+    background-color: beige;
+    border-radius: 50%;
+    display: inline-block;
+}
+.rectangle {
+    height:200px;
+    width: 300px;
+    background-color: red;
+}
+p{
+    text-align: center;
+    background-color: #444;
+    color: violet;
+}

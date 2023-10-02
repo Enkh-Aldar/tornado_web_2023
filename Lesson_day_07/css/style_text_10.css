@@ -1,0 +1,12 @@
+li:hover{
+    color: orange;
+    background-color: red;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+li:active{
+    color: white;
+    background-color: orange;
+    border-radius: 50px;
+    border-inline-color: blue;
+}
