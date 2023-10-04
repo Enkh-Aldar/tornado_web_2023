@@ -1,0 +1,22 @@
+.box{
+    position: relative;
+    z-index: 1;
+    background: lightblue;
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    border: 2px solid lightblue;
+    box-sizing: border-box;
+}
+#green-box{
+    position: absolute;
+    z-index: 2;
+    background: lightgreen;
+    width: 100px;
+    left: 20px;
+    top: 20px;
+    height: 100px;
+    border: 2px solid lightgreen;
+    box-sizing: border-box;
+}

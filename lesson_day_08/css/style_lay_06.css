@@ -1,0 +1,22 @@
+div{
+    width: 350px;
+    height: auto;
+    background:lightgrey;
+    padding: 10px;
+}
+#Block{
+    background: white;
+    width: 300px;
+    height: auto;
+    border: 1px black;
+    padding: 5px;
+}
+#Inline{
+    background: white;
+    width: 300px;
+    height: auto;
+    border: 1px black;
+    
+    padding-top: 15px;
+    
+}

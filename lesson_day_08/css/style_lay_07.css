@@ -1,0 +1,28 @@
+.one{
+    position: absolute;
+    background: green;
+    width: auto;
+    height: auto;
+    border: 1px black;
+    top: 25px;
+    left: 200px;
+}
+#Block{
+    position: relative;
+    background: Blue;
+    color: white;
+    width: 300px;
+    height: auto;
+    border: 1px black;
+    padding: 5px;
+}
+#Inline{
+    position: relative;
+    background: red;
+    color: white;
+    width: 300px;
+    height: auto;
+    border: 1px black;
+    
+    padding-top: 15px;   
+}
