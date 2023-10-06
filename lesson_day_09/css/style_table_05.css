@@ -1,0 +1,24 @@
+table{
+    margin: auto;
+    width: 600px;
+    border-style: outset solid lightgrey;
+    box-shadow: 0 0 2em lightgrey;
+}
+tr.one{
+    font-family:'Courier New', Courier, monospace;
+    background: green;
+    color: white;
+    text-align: left;
+}
+tr.two{
+    font-family: 'Courier New', Courier, monospace;
+    background: white;
+}
+tr.three{
+    font-family: 'Courier New', Courier, monospace;
+    background: lightgrey;
+    color: green;
+}
+td.four{
+    border-bottom: 2px solid green;
+}

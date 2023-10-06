@@ -1,0 +1,21 @@
+table{
+    margin: auto;
+}
+th.even{
+    text-transform: uppercase;
+    border: 2px solid #F7C8E0;
+}
+tr.one{
+    background:  #c01414;
+}
+tr.two{
+    background:  #f0f1fa;
+}
+td {
+    border: 1px solid black;
+    border-bottom: 1px solid #FFDEB4;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 0.1em;
+}

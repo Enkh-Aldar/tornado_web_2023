@@ -1,0 +1,15 @@
+table{
+    margin: auto;
+}
+td, th{
+    border: 1px solid black;
+}
+th{
+    padding: 5px;
+    border-bottom: 2px solid #AAc8A7;
+    text-align: center;
+    border-top: 1px solid #C3EDC0;
+}
+td.name{
+    text-align: left;
+}

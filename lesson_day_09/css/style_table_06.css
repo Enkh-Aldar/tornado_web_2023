@@ -1,0 +1,13 @@
+table.even{
+    margin: auto;
+empty-cells: hide;
+border: 1px solid lawngreen;
+background: darkcyan;
+}
+td, th{
+    border: 1px solid lawngreen;
+    width: 20px;
+    height: 20px;
+    text-align: left;
+    padding: 10px;
+}

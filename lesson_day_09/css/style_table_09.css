@@ -1,0 +1,15 @@
+table.second{
+    margin: auto;
+    empty-cells: show;
+    border-spacing: 15px;
+    border-collapse: collapse;
+}
+td, th{
+    width: 100px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid #F31559;
+    border-radius: 10px;
+}

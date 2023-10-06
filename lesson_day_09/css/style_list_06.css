@@ -1,0 +1,9 @@
+li.vegetables{
+    list-style-type: square;
+}
+li.fruits{
+    list-style-type: circle;
+}
+li.dairy{
+    list-style-type: disc;
+}

@@ -1,0 +1,9 @@
+ul{
+    list-style-type: disc;
+}
+ul.even{
+list-style-image: url("../img/icons8-spoon-and-fork-48.png")
+}
+ul.odd{
+    list-style-type: lower-alpha;
+}

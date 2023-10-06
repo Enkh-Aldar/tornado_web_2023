@@ -1,0 +1,7 @@
+li.did{
+    list-style-image: url(../img/icons8-right-32.png);
+}
+li.didnt{
+    list-style-type:circle;
+
+}
