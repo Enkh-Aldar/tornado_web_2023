@@ -1,0 +1,59 @@
+body{
+    width: 800px;
+    background-color: white;
+    margin: auto;
+}
+h1.first{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+div.zurag{
+    top: -20px;
+    position: relative;
+    left: 20px;
+    padding: 20px;
+    width: 720px;
+    background-color: lightgrey;
+    height: 1000px;
+}
+img{
+    width: 155px;
+    height: 200px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #ccc;
+}
+h1.two{
+    position: relative;
+    top: -5px;
+    left: -20px;
+    width: 660px;
+    text-align: center;
+    margin: 0px;
+    padding: 50px;
+    color: white;
+    background-color: black;    
+}
+div.last{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+    position: relative;
+    left: -20px;
+    padding: 10px;
+    background-color: black;
+    width: 740px;
+    top: -40px;
+}
+div.flex-item{
+    margin: 10px;
+    width: 100px;
+    color: white;
+}
+p{
+    color: white;
+
+}
