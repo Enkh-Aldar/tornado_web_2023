@@ -1,0 +1,120 @@
+body{
+    width: 900px;
+    margin: auto;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    background-color: #1c1b1d34;
+}
+h1.one{
+    padding: 20px;
+    margin: 0px;
+    color: white;
+    background-color: #1c1b1d34;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3.one{
+    padding: 20px;
+    margin: 0px;
+    color: white;
+    background-color: #1c1b1d34;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flex-item{
+    width: 70px;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+div.pinned{
+    margin: 0px;
+    padding-top: 100px;
+    color: grey;
+}
+h1.two{
+    margin-bottom: -10px;
+}
+span.color{
+    color: #3a0ff9;
+}
+span.css{
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    -webkit-text-stroke: 1px white;
+}
+span.hyper{
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    -webkit-text-stroke: 1px white;
+}
+img.first{
+    position: relative;
+    float: right;
+    bottom: 85px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+p.odd{
+    text-align: justify;
+}
+img.second{
+    position: relative;
+    float: right;
+    bottom: 150px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+span.under{
+    border: 1px solid grey;
+    background-color: grey;
+    color: white;
+    -webkit-text-stroke: 1px white;
+}
+img.third{
+    position: relative;
+    float: right;
+    bottom: 75px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+div.container{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+img.fourth{
+    padding: 0.5px;
+    width: 420px;
+    height: 400px;
+    margin: 1px;
+}
+.bottom-left{
+    position: absolute;
+    top: 350px;
+    left: 16px;
+    color: white;
+}
+.bottom-left1{
+    position: absolute;
+    top: 350px;
+    left: 450px;
+    color: white;
+}
+div.zero{
+    margin-top: 50px;
+    color: white;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #1c1b1d34;
+    text-align: center;
+}
