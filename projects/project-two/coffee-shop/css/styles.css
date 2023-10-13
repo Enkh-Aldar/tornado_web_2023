@@ -1,0 +1,42 @@
+body{
+    width: 1790px;
+    margin: auto;
+}
+div.header{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    align-content: space-between;
+    width: 1790px;
+    background-color: #603601;
+    box-shadow: 0px 5px 10px 0px #000000;
+}
+div.iCoffee{
+/* iCoffee shop */
+
+width: 165px;
+height: 25px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 25px;
+/* identical to box height, or 100% */
+display: flex;
+align-items: center;
+letter-spacing: 2px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+div.odd{
+    color: white;
+}
