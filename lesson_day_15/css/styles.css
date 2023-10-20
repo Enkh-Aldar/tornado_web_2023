@@ -1,0 +1,10 @@
+#page{
+    width: 600px;
+    height: 600px;
+    border: 2px solid gray;
+    margin: auto;
+    text-align: center;
+}
+#page h1{
+    background-color: aquamarine;
+}
