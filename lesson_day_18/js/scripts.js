@@ -11,3 +11,4 @@ console.log(myfavNumbers.length);
 for(var i = 0; i < myfavNumbers.length; i++){
     console.log("My Fav numbers:" + myfavNumbers[i]);
 }
+console.log(myfavNumbers);
