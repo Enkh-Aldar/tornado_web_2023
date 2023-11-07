@@ -219,7 +219,7 @@ body{
     gap: 20px;
     width: 1287px;
     height: 583px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 #sectiontwo #headingfour{
     display: flex;
@@ -235,9 +235,9 @@ body{
     height: 20px;
     border-radius: 10px;
     background: #013560;
-    position: absolute;
-    left: 830.5px;
-    bottom: -137px;
+    position: relative;
+    left: 5px;
+    bottom: -113px;
 }
 #headingfour h1{
     color: #000;
@@ -249,11 +249,12 @@ body{
     line-height: normal;
 }
 #headingfour #line{
-    position: absolute;
+    position: relative;
     width: 100px;
     background: #013560;
     height: 1px;
-    bottom: -127.5px;
+    left: 5px;
+    bottom: 30px;
 }
 #space{
     margin: 20px;
@@ -268,6 +269,7 @@ body{
     height: 500px;
     background: rgba(255, 255, 255, 0.00);  
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+    margin-top: 20px;
 }
 #boxcontainer div{
     flex: 1 0 0;
@@ -364,7 +366,6 @@ body{
     gap: 40px;
     width: 1287px;
     height: 645px;
-    margin: 30px;
 }
 #headingeight{
     display: flex;
@@ -372,6 +373,7 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 15px;
+    width: 228px;
 }
 #headingeight h1{
     color: #000;
@@ -387,15 +389,75 @@ body{
     height: 20px;
     border-radius: 10px;
     background: #013560;
-    position: absolute;
-    left: 830.5px;
-    bottom: -830px;
+    position: relative;
+    left: 5px;
+    bottom: -113px;
 }
 #headingeight #line{
-    position: absolute;
+    position: relative;
     width: 100px;
     background: #013560;
     height: 1px;
-    bottom: -820px;
-    left: 792px;
+    bottom: 30px;
+    left: 5px;
+}
+#services{
+    width: 1287px;
+    height: 536px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#service{
+    width: 402.33px;
+    height: 248px;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.10);
+    margin: 13.2px;
+    text-align: center;
+}
+#icon{
+    display: inline-flex;
+    padding: 0px 121.17px 3px 121.16px;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    position: relative;
+    top: 20px;
+}
+#icon img{
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+}
+#sectiontext{
+    display: inline-flex;
+    padding: 0px 146.07px 0px 146.26px;
+    flex-direction: column;
+    align-items: center;
+}
+#sectiontext h1{
+    color: #013560;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#sectionpara{
+    display: inline-flex;
+    padding: 0px 4.43px 0px 4.9px;
+    flex-direction: column;
+    align-items: center;
+}
+#sectionpara p{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 310px;
 }
