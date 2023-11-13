@@ -36,22 +36,26 @@ main section {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.50) 100%);
 }
 
-.header {
+#content .header {
     display: flex;
-    /* height: 70px; */
+    width: 1287px;
+    height: 70px;
+    padding: 0px 71.5px;
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
+    position: absolute;
+    top: 0px;
     background: #013560;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
 }
 
-.header .logoandheader .logo {
+#content .header .logoandheader .logo {
     width: 30px;
     height: 30px;
 }
 
-.header .logoandheader .company {
+#content .header .logoandheader .company {
     color: #FFF;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 25px;
@@ -61,7 +65,7 @@ main section {
     letter-spacing: 2px;
 }
 
-.header #text {
+#text {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -112,6 +116,7 @@ main section {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-top: 220px;
 }
 
 #headingtwo .headingthree {
@@ -174,7 +179,7 @@ main section {
     background: #013560;
 }
 
-.contain .containertext {
+.container .containertext {
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -217,33 +222,33 @@ main section {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    position: relative;
-    top: -120px;
 }
 
-#buttonslide {
-    position: absolute;
-    left: 20px;
+#slide .buttonslide {
+    width: 8px;
+    height: 10px;
     display: inline-flex;
     padding: 16px 17px;
-    flex-direction: column;
     align-items: center;
-    border-radius: 99px;
+    border-radius: 22.92px;
     border: 2px solid #E5EBF3;
-}
-
-#buttonslideone {
+    justify-content: space-around;
     position: absolute;
-    left: 1200px;
+    left: 120px;
+}
+#slide .buttonslideone{
+    width: 8px;
+    height: 10px;
     display: inline-flex;
     padding: 16px 17px;
-    flex-direction: column;
     align-items: center;
-    border-radius: 99px;
+    border-radius: 22.92px;
     border: 2px solid #E5EBF3;
+    justify-content: space-around;
+    position: absolute;
+    left: 1335px;
 }
-
-#buttonslide button {
+#slide .buttonslide p {
     color: #E5EBF3;
     text-align: center;
     font-family: Font Awesome 5 Free;
@@ -262,7 +267,7 @@ main section {
     gap: 20px;
     width: 1287px;
     height: 583px;
-    margin-top: 10px;
+    margin-top: 150px;
 }
 
 #sectiontwo #headingfour {
@@ -675,4 +680,114 @@ main section {
     /* 100% */
     width: 12px;
     height: 12px;
+}
+#sectionfive{
+    display: inline-flex;
+    padding: 30px 71.5px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+#sectionfive .boxcontainer{
+    display: flex;
+    width: 1287px;
+    align-items: flex-start;
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+}
+#sectionfive .form{
+    width: 643.5px;
+    height: 534px;
+    flex-shrink: 0;
+    background: #FFF;
+    
+}
+#sectionfive .form .headingtwe{
+    display: inline-flex;
+    padding: 11px 220.15px 11px 220.35px;
+    flex-direction: column;
+    align-items: center;
+}
+#sectionfive .form .headingtwe h1{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#sectionfive .form .input{
+    border: none;
+    border-bottom: 1px solid #333;
+    background: #FFF;
+    width: 593px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+#sectionfive .form .input p{
+    display: flex;
+    width: 593.5px;
+    height: 19px;
+    padding-right: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #757575;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#sectionfive .form .area{
+    margin-left: 25px;
+    margin-right: 20px;
+    display: inline-flex;
+    padding: 12px 532.5px 169px 5px;
+    align-items: flex-start;
+    border-bottom: 1px solid #333;
+    background: #FFF;
+    height: 18px;
+}
+#sectionfive .form .area p{
+    color: #757575;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#sectionfive .form button{
+    display: inline-flex;
+    padding: 12px 30px 13px 30px;
+    align-items: center;
+    border-radius: 10px;
+    background: #013560;
+    width: 121px;
+    height: 46px;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+#sectionfive .form button p{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+#sectionfive .form .google{
+    display: flex;
+    padding-top: 8px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+#sectionfive .form .google iframe{
+    width: 644px;
+    height: 526px;
 }
