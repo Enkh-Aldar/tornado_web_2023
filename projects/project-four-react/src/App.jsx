@@ -5,7 +5,6 @@ function App() {
 
   return (
       <div>
-      <h1>IBlog App</h1>
       <HomePage />
       </div>
   )
