@@ -1,4 +1,17 @@
+import { useState } from "react";
+import { menus } from "./data/menu";
+import Menu from "./menu";
+
 const SideBar = () => {
+
+    const [profileState, setProfileState] = useState(menus);
+
+    const sideMenu = profileState.map(p => <Menu 
+        imgFrame={p.imgFrame}
+        title={p.title}
+        children={p.children}
+    />)
+    
     return (
         <div className="inline-flex w-[348px] h-[1802px] flex-col items-start gap-2.5 shrink-0 border-r-[color:var(--grey-light-grey-3,#E2E8EE)] px-[49px] py-10 border-r border-solid">
             <div className="flex flex-col items-start gap-[45px]">
@@ -10,25 +23,7 @@ const SideBar = () => {
                 </div>
                 <div className="flex flex-col items-start gap-9">
                     <div className="flex w-[250px] flex-col items-start gap-8">
-                        <div className="flex w-[250px] justify-between items-center">
-                            <p className="text-[color:var(--grey-light-grey-1,#242A31)] text-sm not-italic font-semibold leading-[normal]">Lifestyle</p>
-                            <img src="Frame (3).jpg" alt="" className="w-3 h-3 shrink-0" />
-                        </div>
-                        <div className="flex flex-col justify-center items-start gap-2">
-                            <div className="flex w-[250px] items-start rounded px-4 py-2">
-                                <p className="text-[color:var(--grey-light-grey-1,#242A31)] text-sm not-italic font-normal leading-[21px]">Hobby</p>
-                            </div>
-                            <div className="flex w-[250px] items-start rounded px-4 py-2">
-                                <p className="text-[color:var(--grey-light-grey-1,#242A31)] text-sm not-italic font-normal leading-[21px]">Travel</p>
-                            </div>
-                            <div className="flex w-[250px] items-start rounded px-4 py-2">
-                                <p className="text-[color:var(--grey-light-grey-1,#242A31)] text-sm not-italic font-normal leading-[21px]">Food&Beverage</p>
-                            </div>
-                            <div className="flex w-[250px] items-start rounded px-4 py-2">
-                                <p className="text-[color:var(--grey-light-grey-1,#242A31)] text-sm not-italic font-normal leading-[21px]">Home and Decor</p>
-                            </div>
-                            
-                        </div>
+                        {sideMenu}
                         <div className="flex flex-col justify-center items-start gap-3">
                             <div className="flex w-[250px] justify-between items-center">
                                 <p className="text-[color:var(--grey-light-grey-1,#242A31)] text-sm not-italic font-semibold leading-[normal]">Sport</p>

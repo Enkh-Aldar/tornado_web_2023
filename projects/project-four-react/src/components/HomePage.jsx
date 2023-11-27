@@ -6,15 +6,21 @@ import SideBar from "./SideBar";
 
 const HomePage = () => {
     return (
-        <div className="flex">
-            <div className="w-[1440px] h-[1802px] bg-[#FFF]">
+        <div className="flex max-w-[1440px] max-h-[1802px] m-auto m-0">
+            <div className="w-[1440px] h-[1802px] bg-[#FFF] mr-0">
                 <SideBar />
             </div>
             <div>
                 <Header />
-                <MainContent />
-                <ReadMore />
-                <Footer />
+                <div className="mb-5 flex justify-center">
+                    <MainContent />
+                </div>
+                <div className="flex justify-center mb-60">
+                    <ReadMore />
+                </div>
+                <div className="mt-40">
+                    <Footer />
+                </div>
             </div>
         </div>
     )
