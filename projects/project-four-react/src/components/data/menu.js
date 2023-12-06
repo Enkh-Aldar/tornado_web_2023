@@ -17,6 +17,30 @@ export const menus = [
             }
 
         ]
-    }
+    },
+    {
+        title: 'Sport',
+        imgFrame: 'Frame (3).jpg',
+        children: [
+            {
+                title: "Soccer",
+            },
+            {
+                title: "Volleyball",
+            }
+        ]
+    },
+    {
+        title: 'Technology',
+        imgFrame: 'Frame (3).jpg',
+        children: [
+
+        ]
+    },
+    {
+        title: 'Entertainment',
+        imgFrame: 'Frame (3).jpg',
+        children: []
+    },
    
 ]

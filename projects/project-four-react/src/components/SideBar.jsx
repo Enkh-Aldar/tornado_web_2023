@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { menus } from "./data/menu";
-import Menu from "./menu";
+import Menu from "./Menu";
 
 const SideBar = () => {
 
@@ -24,30 +24,6 @@ const SideBar = () => {
                 <div className="flex flex-col items-start gap-9">
                     <div className="flex w-[250px] flex-col items-start gap-8">
                         {sideMenu}
-                        <div className="flex flex-col justify-center items-start gap-3">
-                            <div className="flex w-[250px] justify-between items-center">
-                                <p className="text-[color:var(--grey-light-grey-1,#242A31)] text-sm not-italic font-semibold leading-[normal]">Sport</p>
-                                <img src="Frame (3).jpg" alt="" />
-                            </div>
-                            <div className="flex flex-col justify-center items-start gap-2">
-                                <div className="flex w-[250px] items-start rounded px-4 py-2">
-                                    <p className="text-[color:var(--grey-light-grey-1,#242A31)] text-sm not-italic font-normal leading-[21px]">Soccer</p>
-                                </div>
-                                <div className="flex w-[250px] items-start rounded px-4 py-2">
-                                    <p className="text-[color:var(--grey-light-grey-1,#242A31)] text-sm not-italic font-normal leading-[21px]">Volleyball</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex flex-col justify-center items-start gap-3">
-                            <div className="flex w-[250px] justify-between items-center">
-                                <p className="text-[color:var(--grey-light-grey-1,#242A31)] text-sm not-italic font-semibold leading-[normal]">Technology</p>
-                                <img src="Frame (3).jpg" alt="" />
-                            </div>
-                        </div>
-                        <div className="flex w-[250px] justify-between items-center">
-                                <p className="text-[color:var(--grey-light-grey-1,#242A31)] text-sm not-italic font-semibold leading-[normal]">Entertainment</p>
-                                <img src="Frame (3).jpg" alt="" />
-                            </div>
                     </div>
                 </div>
             </div>
