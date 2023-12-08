@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import CardsCategory from "./CardCategory";
 import { profiles } from "../data/data";
+import { useParams } from "react-router-dom";
 
-const MainContent = () => {
-
-    const [profileState, setProfileState] = useState(profiles);
+const FilteredContent = () => {
+    const { category } = useParams()
+    const [profileState, setProfileState] = useState(profiles.filter(p => p.title.toLowerCase().includes(category)))
 
     const categories = profileState.map((p, index) => <CardsCategory
         key={index}
@@ -21,4 +22,4 @@ const MainContent = () => {
         </div>
     )
 }
-export default MainContent;
+export default FilteredContent;

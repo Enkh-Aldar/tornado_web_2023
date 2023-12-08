@@ -3,7 +3,7 @@ import SubMenu from "./SubMenu";
 
 const Menu = ({ imgFrame, title, children }) => {
 
-    const subMenus = children.map(p => <SubMenu title={p.title} />)
+    const subMenus = children.map((p,index) => <SubMenu key={index} title={p.title} />)
 
     return (
         <div className="flex flex-col justify-center items-start gap-2">

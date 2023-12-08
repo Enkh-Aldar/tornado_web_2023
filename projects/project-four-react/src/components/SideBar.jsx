@@ -1,12 +1,13 @@
 import { useState } from "react";
-import { menus } from "./data/menu";
+import { menus } from "../data/menu";
 import Menu from "./Menu";
 
 const SideBar = () => {
 
     const [profileState, setProfileState] = useState(menus);
 
-    const sideMenu = profileState.map(p => <Menu 
+    const sideMenu = profileState.map((p, index) => <Menu 
+        key={index}
         imgFrame={p.imgFrame}
         title={p.title}
         children={p.children}

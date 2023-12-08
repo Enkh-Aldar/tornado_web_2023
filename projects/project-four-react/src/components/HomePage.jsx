@@ -1,6 +1,6 @@
+import { Outlet } from "react-router-dom";
 import Footer from "./Footer";
 import Header from "./Header";
-import MainContent from "./MainContent";
 import ReadMore from "./ReadMore";
 import SideBar from "./SideBar";
 
@@ -13,7 +13,7 @@ const HomePage = () => {
             <div>
                 <Header />
                 <div className="mb-5 flex justify-center">
-                    <MainContent />
+                  <Outlet />
                 </div>
                 <div className="flex justify-center mb-60">
                     <ReadMore />

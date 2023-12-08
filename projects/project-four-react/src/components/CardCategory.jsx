@@ -3,7 +3,8 @@ import Card from "./Card";
 
 const CardsCategory = ({ title, seeAll, imgAngle, imgRight, imgLeft, cards }) => {
 
-    const categoryCards = cards.map(p => <Card
+    const categoryCards = cards.map((p, index) => <Card
+        key={index}
         about={p.about}
         author={p.author}
         date={p.date}
