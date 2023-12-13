@@ -1,4 +1,17 @@
+import { useNavigate } from "react-router-dom";
+
 const Header = () =>{
+
+    const navigate = useNavigate();
+
+    const navigateToLogin = () => {
+        navigate('/login');
+    };
+    
+    const navigateToRegister = () => {
+        navigate('/register');
+    }
+
     return (
         <header className="flex w-[1091px] justify-end items-start gap-[116px] border-b-[color:var(--grey-light-grey-3,#E2E8EE)] px-12 py-[39px] border-b border-solid">
             <div className="flex w-[572px] h-[39px] justify-between items-center shrink-0 border px-[25px] py-0 rounded-[20px] border-solid border-[#D2D8D4]">
@@ -8,11 +21,11 @@ const Header = () =>{
                 </div>
             </div>
             <div className="flex justify-end items-start gap-3.5">
-                <button className="flex justify-center items-center gap-2.5 border border-[color:var(--grey-dark-grey-4,#DCE3EA)] px-[30px] py-2.5 rounded-[10px] border-solid bg-[#FFF]">
-                    <button className="text-[color:var(--iblog-primary,#E86B02)] text-base not-italic font-semibold leading-[21px]">Бүртгүүлэх</button>
+                <button onClick={navigateToRegister} className="flex justify-center items-center gap-2.5 border border-[color:var(--grey-dark-grey-4,#DCE3EA)] px-[30px] py-2.5 rounded-[10px] border-solid bg-[#FFF]">
+                    <div className="text-[color:var(--iblog-primary,#E86B02)] text-base not-italic font-semibold leading-[21px]">Бүртгүүлэх</div>
                 </button>
-                <button className="flex justify-center items-center gap-2.5 px-[30px] py-2.5 rounded-[10px] bg-[#E86B02]">
-                    <button className="text-white text-[15px] not-italic font-medium leading-[21px]">Нэвтрэх</button>
+                <button onClick={navigateToLogin} className="flex justify-center items-center gap-2.5 px-[30px] py-2.5 rounded-[10px] bg-[#E86B02]">
+                    <div className="text-white text-[15px] not-italic font-medium leading-[21px]">Нэвтрэх</div>
                 </button>
             </div>
             <div className="flex w-[572px] h-[39px] justify-center items-start gap-[98px] absolute right-[259px] top-[39px]"></div>

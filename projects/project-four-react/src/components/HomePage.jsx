@@ -13,7 +13,7 @@ const HomePage = () => {
             <div>
                 <Header />
                 <div className="mb-5 flex justify-center">
-                  <Outlet />
+                    <Outlet />
                 </div>
                 <div className="flex justify-center mb-60">
                     <ReadMore />

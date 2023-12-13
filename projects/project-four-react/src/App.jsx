@@ -5,6 +5,7 @@ import FilteredContent from "./components/FilteredContent";
 import FilteredProfile from "./components/FilteredProfile";
 import Login from "./components/Login";
 import Register from "./components/Register";
+import UserRegister from "./components/userRegister";
 
 function App() {
   return (
@@ -14,9 +15,12 @@ function App() {
           <Route path="/" element={<MainContent />} />
           <Route path="/:category" element={<FilteredContent />} />
           <Route path="/posts/:posts" element={<FilteredProfile />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
+          
+
         </Route>
+        <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/userregister" element={<UserRegister/>} />
       </Routes>
     </div>
   )

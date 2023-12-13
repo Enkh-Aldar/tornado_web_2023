@@ -2,15 +2,16 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDFNoHGPnEW2bODSXRd_7NIyFBaHoxgadw",
-  authDomain: "enkh-aldar.firebaseapp.com",
-  projectId: "enkh-aldar",
-  storageBucket: "enkh-aldar.appspot.com",
-  messagingSenderId: "186003011862",
-  appId: "1:186003011862:web:f0cd175bdc709abd283837"
+  apiKey: "AIzaSyDKhroyyQ-bCKk_EQ7StXOXmcic9PeUfBE",
+  authDomain: "i-blog-app.firebaseapp.com",
+  projectId: "i-blog-app",
+  storageBucket: "i-blog-app.appspot.com",
+  messagingSenderId: "12332381175",
+  appId: "1:12332381175:web:5e9e364a2d2ac5f01df4f2",
+  measurementId: "G-GPJLWFXCYR"
 };
 
-// Initialize Firebase
+
 const app = initializeApp(firebaseConfig);
 
 export const auth = getAuth(app);
