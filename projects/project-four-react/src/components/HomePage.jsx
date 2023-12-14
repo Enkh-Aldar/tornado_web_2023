@@ -3,6 +3,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 import ReadMore from "./ReadMore";
 import SideBar from "./SideBar";
+import Profile from "./PostDetail";
 
 const HomePage = () => {
     return (

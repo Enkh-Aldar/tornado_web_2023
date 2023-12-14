@@ -1,27 +1,17 @@
-import React, { useState } from "react";
-import { profileData } from "../data/profileData";
-import ProfileContent from "./ProfileContent";
+
 
 const Profile = () => {
 
-    const [profileState, setProfileState] = useState(profileData);
 
-    const postDetail = profileState.map((p, index) => <ProfileContent key={index}
-        title={p.title}
-        imgProfile={p.imgProfile}
-        imgUrl={p.imgUrl}
-        imgFacebook={p.imgFacebook}
-        imgHeart={p.imgHeart}
-        Share={p.Share}
-        number={p.number}
-        imgAngle={p.imgAngle}
-    />)
-
-    return (
-        <div className="flex w-[898px] flex-col items-start gap-4">
-            {postDetail}
+    return(
+        <div className="w-[1440px] h-[1255px] relative bg-white">
+            <div className="left-[48px] top-[155px] absolute justify-start items-start gap-[30px] inline-flex">
+                <div className="w-[343px] p-6 bg-white rounded-[20px] flex-col justify-center items-center gap-6 inline-flex">
+                    <div className="justify-start items-center gap-2.5 inline-flex">
+                        <img src="" alt="" />
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
-
-export default Profile;
